@@ -17,7 +17,7 @@ public class Leetcode24 {
     }
 
     public static ListNode swapPairs(ListNode head) {
-        if (head==null || head.next == null) {
+        if (head == null || head.next == null) {
             return head;
         }
         ListNode temp = head;
